@@ -1,0 +1,85 @@
+/* Overall */
+body {
+    background-color: #F9EAD5;
+}
+/* Headliners */
+.title-headliner {
+    display: inline-block;
+    font-family: 'Anton';
+    font-size: 6.5vw;
+    color: #EE5C52;
+    margin-bottom: -1vw;
+}
+hr {
+    margin-bottom: 1vw;
+}
+.headliner-subtext{
+    font-family: 'Abhaya Libre';
+    color: #120DFF;
+    font-size: 1.2vw;
+}
+.subtext-alignment{
+    display: inline;
+    padding-right: 14vw;
+    padding-left: 8vw;
+}
+/* Body */
+.subheader{
+    font-family: 'Inter';
+    color: #EE5C52;
+    font-size: 2.25vw;
+    margin-bottom: 1vw !important; 
+}
+.body-text{
+    font-family: 'Abhaya Libre';
+    font-size: 1.1vw;
+}
+.paper-body{
+    display: flex;
+    margin: auto;
+}
+.body-flex{
+    width: 18vw;
+    padding-right: 1vw;
+    padding-left: 2vw;
+    margin: 0;
+}
+.flexbig{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 0;
+}
+.homing-pigeon-info{
+    margin-top: auto;
+}
+.body-text{
+    text-indent: 1.5vw;
+    margin: none;
+    padding: none;
+}
+/* Footer */
+.paper-footer{
+    display: flex;
+    margin-bottom: 1vw;
+    padding-top: 0;
+}
+.footer-flex{
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.footer-subheader{
+    font-family: 'Inter';
+    color: #EE5C52;
+    margin-left: 2vw;
+    font-size: 2.15vw;
+}
+.footer-p1{
+    margin: 0;
+    font-size: 1.1vw;
+}
+.footer-flags{
+    display: flex;
+}
+.flag{
+    margin: .7vw;
+}
