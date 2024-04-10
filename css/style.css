@@ -2,6 +2,11 @@
 body {
     background-color: #F9EAD5;
 }
+.to-link{
+    color: hsl(241, 100%, 53%);
+    font-size: 1.2vw;
+    text-decoration: none;
+}
 /* Headliners */
 .title-headliner {
     display: inline-block;
@@ -57,6 +62,9 @@ hr {
     margin: none;
     padding: none;
 }
+#last-cher-info{
+    margin-bottom: 1vw;
+}
 /* Footer */
 .paper-footer{
     display: flex;
@@ -82,4 +90,29 @@ hr {
 }
 .flag{
     margin: .7vw;
+}
+/* Quote */
+.hr-quote{
+    width: 50%;
+}
+.quote-flex{
+    display: flex;
+}
+.spacing-quote{
+    width: 40%;
+    border: transparent;
+}
+.quote-text{
+    font-size: 1vw;
+    font-style: oblique;
+}
+.quote-name{
+    font-family: 'Abhaya Libre';
+    font-size: 1vw;
+    display: flex;
+    justify-content: right;
+    margin-right: 5.3vw;
+}
+.flag{
+    height: 5vw;
 }
