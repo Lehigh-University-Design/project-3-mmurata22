@@ -7,6 +7,15 @@ body {
     font-size: 1.2vw;
     text-decoration: none;
 }
+.paper{
+    margin: 2.5vw;
+    margin-top: 0;
+}
+/* Navigation */
+.nav-icon{
+    height: 3vw;
+
+}
 /* Headliners */
 .title-headliner {
     display: inline-block;
@@ -14,6 +23,8 @@ body {
     font-size: 6.5vw;
     color: #EE5C52;
     margin-bottom: -1vw;
+    align-items: center; 
+    margin-top: 0;;
 }
 hr {
     margin-bottom: 1vw;
@@ -33,7 +44,7 @@ hr {
     font-family: 'Inter';
     color: #EE5C52;
     font-size: 2.25vw;
-    margin-bottom: 1vw !important; 
+    margin-bottom: .5vw !important; 
 }
 .body-text{
     font-family: 'Abhaya Libre';
@@ -65,6 +76,13 @@ hr {
 #last-cher-info{
     margin-bottom: 1vw;
 }
+/* Main Pigeon Image */
+.pigeon-graphic{
+    position: absolute;
+    top: 11vw;
+    left: 14vw;
+    height: 55vw;
+}
 /* Footer */
 .paper-footer{
     display: flex;
@@ -80,6 +98,7 @@ hr {
     color: #EE5C52;
     margin-left: 2vw;
     font-size: 2.15vw;
+    margin-bottom: .5vw !important; 
 }
 .footer-p1{
     margin: 0;
@@ -115,4 +134,50 @@ hr {
 }
 .flag{
     height: 5vw;
+}
+/* Navigation pull out */
+.navigation{
+    position: fixed;
+    background-color: #EE5C52;
+    height: 100%;
+    width: 35vw;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.navbar-title{
+    font-family: 'Anton';
+    font-size: 5vw;
+    margin-top: 0vw;
+    margin-left: 1vw;
+    color: #F9EAD5;
+    margin-bottom: 0;
+}
+.navbar-title-div{
+    width: 31vw;
+    border-top: 3px #F9EAD5;
+    margin-left: 1vw;
+    margin-top: 0vw;
+}
+.close-icon{
+    margin-left: 6.8vw;
+    height: 3.8vw;
+    width: 3.36vw;
+    background: transparent;
+    background-image: url('/images/CloseIcon.svg');
+    border: none;
+}
+.navbar-link{
+    font-family: 'Inter';
+    color: #F9EAD5;
+    margin-left: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2vw;
+    font-style: bold;
+}
+.link-div{
+    border-top: 1px #F9EAD5;
+    margin-left: 2vw;
+    width: 26vw;
 }
