@@ -1,0 +1,91 @@
+/* Overall */
+body{ 
+    background-color: #F9EAD5;
+}
+
+/* Navigation pull out */
+.navigation{
+    position: fixed;
+    background-color: #EE5C52;
+    height: 100%;
+    width: 35vw;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.navbar-title{
+    font-family: 'Anton';
+    font-size: 5vw;
+    margin-top: 0vw;
+    margin-left: 1vw;
+    color: #F9EAD5;
+    margin-bottom: 0;
+}
+.navbar-title-div{
+    width: 31vw;
+    border-top: 3px #F9EAD5;
+    margin-left: 1vw;
+    margin-top: 0vw;
+}
+.close-icon{
+    margin-left: 6.8vw;
+    height: 3.8vw;
+    width: 3.36vw;
+    background: transparent;
+    background-image: url('/images/CloseIcon.svg');
+    border: none;
+}
+.navbar-link{
+    font-family: 'Inter';
+    color: #F9EAD5;
+    margin-left: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2vw;
+    font-style: bold;
+    text-decoration: none;
+}
+.link-div{
+    border-top: 1px #F9EAD5;
+    margin-left: 2vw;
+    width: 26vw;
+}
+.navigation {
+    display: none;
+}
+
+/* Content Divider */
+.content-div{
+    margin-top: 2vw;
+    border-style: solid;
+    border-width: .07vw;
+    border-color: #120DFF;
+    width: 90vw;
+}
+
+/* Dividers */
+.decor-dividers{
+    height: 40vw;
+    width: .01vw;
+    border-style: solid;
+    border-color: #EE5C52;
+    background-color: #EE5C52;
+}
+
+/* Icons */
+.ear-icon{
+    height: 5vw;
+    width: 5vw;
+    position: flex;
+}
+.eye-icon{
+    height: 5vw;
+    width: 5vw;
+}
+.magnet-icon{
+    height: 5vw;
+    width: 5vw;
+}
+.title-icons{
+    display: flex;
+}
