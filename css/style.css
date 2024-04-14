@@ -175,9 +175,13 @@ hr {
     margin-bottom: 0;
     font-size: 2vw;
     font-style: bold;
+    text-decoration: none;
 }
 .link-div{
     border-top: 1px #F9EAD5;
     margin-left: 2vw;
     width: 26vw;
+}
+.navigation {
+    display: none;
 }
