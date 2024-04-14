@@ -11,11 +11,13 @@ body {
     margin: 2.5vw;
     margin-top: 0;
 }
+
 /* Navigation */
 .nav-icon{
     height: 3vw;
 
 }
+
 /* Headliners */
 .title-headliner {
     display: inline-block;
@@ -39,6 +41,7 @@ hr {
     padding-right: 14vw;
     padding-left: 8vw;
 }
+
 /* Body */
 .subheader{
     font-family: 'Inter';
@@ -76,6 +79,7 @@ hr {
 #last-cher-info{
     margin-bottom: 1vw;
 }
+
 /* Main Pigeon Image */
 .pigeon-graphic{
     position: absolute;
@@ -83,6 +87,7 @@ hr {
     left: 14vw;
     height: 55vw;
 }
+
 /* Footer */
 .paper-footer{
     display: flex;
@@ -110,6 +115,7 @@ hr {
 .flag{
     margin: .7vw;
 }
+
 /* Quote */
 .hr-quote{
     width: 50%;
@@ -135,6 +141,7 @@ hr {
 .flag{
     height: 5vw;
 }
+
 /* Navigation pull out */
 .navigation{
     position: fixed;
