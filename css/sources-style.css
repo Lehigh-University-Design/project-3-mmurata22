@@ -80,3 +80,27 @@ body{
 .navigation {
     display: none;
 }
+
+/* Letter Image */
+.letter-img {
+    margin-left: 15vw;
+    margin-top: 10vw;
+}
+.source-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-top: -108vw;
+    margin-left: 26.5vw;
+    align-items: center;
+    font-family: 'Abhaya Libre';
+    font-size: 3vw;
+}
+.meat-container {
+    position: relative;
+}
+.one-link{
+    margin-top: 2vw;
+    color: #120DFF;
+}

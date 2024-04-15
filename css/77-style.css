@@ -62,3 +62,74 @@ body{
     border-color: #120DFF;
     width: 90vw;
 }
+
+/* Page Header */
+.soldier-img {
+    display: flex;
+    height: 60vw;
+    width: 80vw;
+    margin-top: 1vw;
+    margin-left: -1vw;
+}
+.header-title{
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 36.5vw;
+}
+.header-text{
+    display: flex;
+    font-family: 'Anton';
+    margin: 0;
+    font-size: 9vw;
+    color: #EE5C52;
+}
+.header-container{
+    display: flex;
+}
+
+/* Meat */
+.soldiers {
+    width: 99vw;
+}
+.background-pattern {
+    margin-top: 3vw;
+    width: 99vw;
+}
+.meat-title {
+    position: absolute;
+    top: 92vw;
+    margin-left: 27vw;
+    height: 20vw;
+}
+
+/* Textboxes */
+.boxes {
+    position: absolute;
+    top: 110vw;
+    display: flex;
+    flex-direction: column;
+}
+.textbox-top,
+.textbox-bottom {
+    display: flex;
+}
+.textbox {
+    width: 30vw; 
+    height: 30vw;
+    margin: 1vw;
+    margin-left: 1.5vw;
+}
+
+/* Footer */
+.last-div {
+    margin-top: 3vw;
+    border-style: solid;
+    border-width: .07vw;
+    border-color: #EE5C52;
+    width: 90vw;
+}
+.gun {
+    margin-left: 8vw;
+    width: 80vw;
+    margin-top: 8vw;
+}

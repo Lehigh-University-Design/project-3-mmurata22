@@ -67,3 +67,58 @@ body{
     border-color: #120DFF;
     width: 90vw;
 }
+
+/* Meat */
+.topography {
+    height: 175vw;
+    margin-left: 1vw;
+    margin-top: 5vw;
+    position: relative;
+}
+.bird {
+    position: absolute;
+    top: 95vw;
+    left: 23vw;
+    height: 30vw;
+}
+
+/* Meat Title */
+.meat-title-text {
+    font-family: 'Anton';
+    font-size: 10vw;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-shadow: 
+        -.3vw -.3vw 0 #EE5C52,  
+        .3vw -.3vw 0 #EE5C52,
+        -.3vw  .3vw 0 #EE5C52,
+        .3vw  .3vw 0 #EE5C52;
+    color: #F9EAD5;
+}
+.meat-title{
+    position: absolute;
+    top: 125vw;
+    left: 70vw;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Pins */
+.pin-group {
+    position: absolute;
+    top: 160vw;
+    display: flex;
+    flex-direction: column;
+}
+.pin-top-group,
+.pin-bottom-group {
+    display: flex;
+}
+.pin {
+    width: 47vw; 
+    height: 47vw;
+}

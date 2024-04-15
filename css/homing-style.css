@@ -56,7 +56,7 @@ body{
 
 /* Content Divider */
 .content-div{
-    margin-top: 2vw;
+    margin-top: 4vw;
     border-style: solid;
     border-width: .07vw;
     border-color: #120DFF;
@@ -70,22 +70,69 @@ body{
     border-style: solid;
     border-color: #EE5C52;
     background-color: #EE5C52;
+    margin-right: 4vw;
+}
+
+/* Page Header */
+.page-header{
+    display: flex;
 }
 
 /* Icons */
-.ear-icon{
-    height: 5vw;
-    width: 5vw;
-    position: flex;
-}
-.eye-icon{
-    height: 5vw;
-    width: 5vw;
-}
-.magnet-icon{
-    height: 5vw;
-    width: 5vw;
-}
 .title-icons{
     display: flex;
+    flex-direction: column;
+    margin-top: .5vw;
+}
+.ear-icon{
+    height: 6vw;
+    width: 6vw;
+    position: flex;
+    margin: .5vw;
+    margin-top: -.8vw;
+}
+.eye-icon{
+    height: 6vw;
+    width: 6vw;
+    margin: .5vw;
+}
+.magnet-icon{
+    height: 6vw;
+    width: 6vw;
+    margin: 0.5vw;
+}
+
+/* Title */
+.header-piece {
+    font-family: 'Anton';
+    color: #EE5C52;
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: 1.5vw;
+}
+.title-holder {
+    display: flex;
+    font-size: 6vw;
+    margin-top: 21vw;
+    margin-left: 5vw;
+}
+
+/* Topography */
+.topography-img{
+    height: 40vw;
+    margin-right: 6vw;
+}
+
+/* Meat */
+.theory-graphic {
+    margin-top: 5vw;
+    height: 82vw;
+}
+.meat-subheader {
+    font-family: 'Anton';
+    font-size: 10vw;
+    color: #EE5C52;
+}
+.compass-rose {
+    float: right;
 }
