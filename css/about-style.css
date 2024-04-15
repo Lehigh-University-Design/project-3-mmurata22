@@ -37,7 +37,7 @@ body{
     height: 3.8vw;
     width: 3.36vw;
     background: transparent;
-    background-image: url('images/CloseIcon.svg');
+    background-image: url('../images/CloseIcon.svg');
     border: none;
 }
 .navbar-link{
