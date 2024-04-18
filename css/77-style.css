@@ -133,3 +133,44 @@ body{
     width: 80vw;
     margin-top: 8vw;
 }
+
+/* Text */
+.textbox-text   {
+    font-family: 'Abhaya Libre';
+    color: #120DFF;
+    font-size: 1.2vw;
+    font-size: 1.9vw;
+}
+.textbox-one {
+    position: absolute;
+    top: 121vw;
+    left: 4.8vw;
+}
+.textbox-two {
+    position: absolute;
+    top: 121vw;
+    left: 37vw;
+}
+.textbox-three {
+    position: absolute;
+    top: 121vw;
+    left: 69.5vw;
+}
+.textbox-four {
+    position: absolute;
+    top: 152vw;
+    left: 4.8vw;
+}
+.textbox-five {
+    position: absolute;
+    top: 152vw;
+    left: 37vw;
+}
+.textbox-six {
+    position: absolute;
+    top: 152vw;
+    left: 69.5vw;
+}
+.textbox-inside {
+    width: 25vw;
+}

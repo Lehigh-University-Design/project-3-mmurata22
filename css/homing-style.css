@@ -135,4 +135,57 @@ body{
 }
 .compass-rose {
     float: right;
+    height: 50vw;
+}
+
+/* Text */
+.textbox-text   {
+    font-family: 'Abhaya Libre';
+    color: #120DFF;
+    font-size: 1.2vw;
+    font-size: 2vw;
+}
+.textbox-one {
+    position: absolute;
+    top: 162vw;
+    left: 3vw;
+    width: 20vw;
+}
+.textbox-two {
+    position: absolute;
+    top: 162vw;
+    left: 27vw;
+    width: 20vw;
+}
+.textbox-three {
+    position: absolute;
+    top: 162vw;
+    left: 49vw;
+    width: 20vw;
+}
+
+
+.textbox-text-upper   {
+    font-family: 'Abhaya Libre';
+    color: #120DFF;
+    font-size: 1.2vw;
+    font-size: 1.5vw;
+}
+.textbox-four {
+    position: absolute;
+    top: 61vw;
+    left: 71vw;
+    width: 20vw;
+}
+.textbox-five {
+    position: absolute;
+    top: 85vw;
+    left: 75vw;
+    width: 21vw;
+}
+.textbox-six {
+    position: absolute;
+    top: 117vw;
+    left: 73vw;
+    width: 21vw;
 }

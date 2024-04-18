@@ -122,3 +122,34 @@ body{
     width: 47vw; 
     height: 47vw;
 }
+
+/* Textbox */
+.textbox-text   {
+    font-family: 'Abhaya Libre';
+    color: #120DFF;
+    font-size: 1.2vw;
+    font-size: 2vw;
+}
+.textbox-inside {
+    width: 25vw;
+}
+.textbox-one {
+    position: absolute;
+    top: 177vw;
+    left: 12vw;
+}
+.textbox-two {
+    position: absolute;
+    top: 177vw;
+    left: 59vw;
+}
+.textbox-three {
+    position: absolute;
+    top: 225vw;
+    left: 12vw;
+}
+.textbox-four {
+    position: absolute;
+    top: 225vw;
+    left: 59vw;
+}
